@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-17T09:44:06.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="uZKtO2dmeuuDZSdZi9LJ" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-17T12:58:20.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="vYKgJDcrrTH479AaLMG8" version="13.6.2" type="github">
   <diagram id="MvFokXsgTjhds_f2WAmv" name="Page-1">
     <mxGraphModel dx="3076" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,27 @@
             <mxPoint x="-1230" y="450" as="sourcePoint" />
             <mxPoint x="-1360" y="145" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qlFBcwMhnOp7yRY9fSyY-6" value="XML Datei auslesen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlFBcwMhnOp7yRY9fSyY-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qlFBcwMhnOp7yRY9fSyY-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1230" y="340" as="sourcePoint" />
+            <mxPoint x="-1130" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlFBcwMhnOp7yRY9fSyY-8" value="Daten speichern" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlFBcwMhnOp7yRY9fSyY-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.425;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qlFBcwMhnOp7yRY9fSyY-8" target="qlFBcwMhnOp7yRY9fSyY-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1230" y="340" as="sourcePoint" />
+            <mxPoint x="-1060" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlFBcwMhnOp7yRY9fSyY-10" value="Daten an Datenbank übermitteln" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
